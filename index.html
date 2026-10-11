@@ -53,14 +53,14 @@ footer{margin-top:30px;text-align:center;color:var(--mute);font:12px system-ui,s
 <h2>Career Totals</h2>
 <div id="career"></div>
 
-<footer>Fantasy edition · the 2025/26 Premier League title is real; the cups, later seasons and your stats are imagined. UEFA Super Cups are listed in the season of the Champions League win that earned them.</footer>
+<footer>Fantasy edition · the 2025/26 Premier League title is real; the cups, later seasons, tournaments and your stats are imagined. UEFA Super Cups are listed in the season of the Champions League win that earned them.</footer>
 </div>
 <script>
 var N='kabage';
 var P42=[[50,10],[17,30],[50,32],[83,30],[33,52],[67,52],[12,72],[37,75],[63,75],[88,72],[50,92]];
 var P43=[[50,10],[17,24],[30,45],[83,24],[50,60],[70,45],[12,72],[37,75],[63,75],[88,72],[50,92]];
 var P3121=[[50,11],[17,20],[83,20],[50,36],[30,50],[70,50],[50,63],[22,76],[50,78],[78,76],[50,92]];
-var TC={pl:'#d4a017',cl:'#3a6fd8',fa:'#c0392b',cc:'#1f9d55',cs:'#e67e22',sc:'#16a085'};
+var TC={pl:'#d4a017',cl:'#3a6fd8',fa:'#c0392b',cc:'#1f9d55',cs:'#e67e22',sc:'#16a085',cw:'#8e44ad'};
 var ME=[14,null];
 var S=[
 {y:'2025/26',m:'Mikel Arteta',f:'4-2-3-1',p:P42,g:52,gl:44,as:43,
@@ -82,11 +82,11 @@ var S=[
  sb:[[7,'Saka'],[8,'McTominy'],[36,'Zubimendi'],[2,'Saliba'],[33,'Calafiori'],[23,'Merino'],[13,'Kepa']],
  r:[['Premier League','🏆 Champions'],['FA Cup','🏆 Winners'],['Community Shield','🏆 Winners'],['UEFA Champions League','Semi-final'],['Carabao Cup','🏆 Winners']]},
 {y:'2028/29',m:'Thierry Henry',f:'3-1-2-1-3',p:P3121,g:48,gl:46,as:50,
- tr:[['pl','Premier League','Champions · 7th title'],['cl','UEFA Champions League','European Champions'],['sc','UEFA Super Cup','Winners'],['fa','FA Cup','Winners'],['cs','Community Shield','Winners'],['cc','Carabao Cup','Winners']],
+ tr:[['pl','Premier League','Champions · 7th title'],['cl','UEFA Champions League','European Champions'],['sc','UEFA Super Cup','Winners'],['fa','FA Cup','Winners'],['cs','Community Shield','Winners'],['cc','Carabao Cup','Winners'],['cw','FIFA Club World Cup','World Champions']],
  aw:['Ballon d\'Or','UEFA Men\'s Player of the Year','Premier League Player of the Season','Premier League Golden Boot','FWA Footballer of the Year','Champions League Final MVP'],
  xi:[[9,'Gyökeres'],[17,'Olise'],[7,'Saka'],ME,[10,'Bellingham'],[8,'McTominy'],[41,'Rice'],[24,'Gvardiol'],[2,'Saliba'],[15,'Guéhi'],[22,'Raya']],
  sb:[[12,'Timber'],[36,'Zubimendi'],[23,'Merino'],[6,'Gabriel'],[33,'Calafiori'],[19,'Trossard'],[13,'Kepa']],
- r:[['Premier League','🏆 Champions'],['UEFA Champions League','🏆 Winners'],['UEFA Super Cup','🏆 Winners'],['FA Cup','🏆 Winners'],['Community Shield','🏆 Winners'],['Carabao Cup','🏆 Winners']]}
+ r:[['Premier League','🏆 Champions'],['UEFA Champions League','🏆 Winners'],['UEFA Super Cup','🏆 Winners'],['FA Cup','🏆 Winners'],['Community Shield','🏆 Winners'],['Carabao Cup','🏆 Winners'],['FIFA Club World Cup','🏆 Winners']]}
 ,{y:'2029/30',m:'Thierry Henry',f:'3-1-2-1-3',p:P3121,g:60,gl:66,as:65,
  wc:['FIFA World Cup 2030 · Kenya','World Cup Winners 🏆',10,12],
  tr:[['pl','Premier League','Champions · 8th title'],['cl','UEFA Champions League','European Champions'],['fa','FA Cup','Winners'],['cs','Community Shield','Winners'],['cc','Carabao Cup','Winners']],
@@ -94,30 +94,53 @@ var S=[
  xi:[[9,'Gyökeres'],[17,'Olise'],[7,'Saka'],ME,[10,'Bellingham'],[8,'McTominy'],[41,'Rice'],[24,'Gvardiol'],[2,'Saliba'],[15,'Guéhi'],[22,'Raya']],
  sb:[[12,'Timber'],[36,'Zubimendi'],[23,'Merino'],[6,'Gabriel'],[33,'Calafiori'],[19,'Trossard'],[13,'Kepa']],
  r:[['Premier League','🏆 Champions'],['UEFA Champions League','🏆 Winners'],['FA Cup','🏆 Winners'],['Community Shield','🏆 Winners'],['Carabao Cup','🏆 Winners'],['FIFA World Cup (Kenya)','🏆 Winners']]}
+,{y:'2030/31',m:'Thierry Henry',f:'3-1-2-1-3',p:P3121,g:58,gl:83,as:82,
+ af:['Africa Cup of Nations 2031 · Kenya','AFCON Winners 🏆',12,10],
+ tf:{inn:[[9,'Isak'],[11,'Wirtz'],[5,'Branthwaite'],[1,'Donnarumma'],[20,'Love Arrhov (academy, Frankfurt)'],[18,'Mikkel Bro Hansen (academy, Bodø/Glimt)'],[16,'Kees Smit (AZ Alkmaar)']],out:['Gyökeres','McTominy','Guéhi','Kepa']},
+ tr:[['pl','Premier League','Champions · 9th title'],['cl','UEFA Champions League','European Champions'],['sc','UEFA Super Cup','Winners'],['fa','FA Cup','Winners'],['cs','Community Shield','Winners'],['cc','Carabao Cup','Winners']],
+ aw:['Ballon d\'Or','FIFA The Best Men\'s Player','UEFA Men\'s Player of the Year','Premier League Player of the Season','Premier League Golden Boot','Premier League Playmaker','Champions League Player of the Season','AFCON Player of the Tournament'],
+ xi:[[9,'Isak'],[17,'Olise'],[7,'Saka'],ME,[10,'Bellingham'],[11,'Wirtz'],[41,'Rice'],[24,'Gvardiol'],[2,'Saliba'],[5,'Branthwaite'],[22,'Raya']],
+ sb:[[12,'Timber'],[36,'Zubimendi'],[23,'Merino'],[6,'Gabriel'],[33,'Calafiori'],[19,'Trossard'],[1,'Donnarumma'],[20,'Arrhov'],[18,'Hansen'],[16,'Smit']],
+ r:[['Premier League','🏆 Champions'],['UEFA Champions League','🏆 Winners'],['UEFA Super Cup','🏆 Winners'],['FA Cup','🏆 Winners'],['Community Shield','🏆 Winners'],['Carabao Cup','🏆 Winners'],['Africa Cup of Nations (Kenya)','🏆 Winners']]},
+{y:'2031/32',m:'Thierry Henry',f:'3-1-2-1-3',p:P3121,g:56,gl:88,as:85,
+ tr:[['pl','Premier League','Champions · 10th title'],['cl','UEFA Champions League','European Champions'],['sc','UEFA Super Cup','Winners'],['fa','FA Cup','Winners'],['cs','Community Shield','Winners'],['cc','Carabao Cup','Winners']],
+ aw:['Ballon d\'Or','FIFA The Best Men\'s Player','UEFA Men\'s Player of the Year','Premier League Player of the Season','Premier League Golden Boot','Premier League Playmaker','Champions League Player of the Season','FWA Footballer of the Year'],
+ xi:[[9,'Isak'],[17,'Olise'],[7,'Saka'],ME,[10,'Bellingham'],[11,'Wirtz'],[41,'Rice'],[24,'Gvardiol'],[2,'Saliba'],[5,'Branthwaite'],[22,'Raya']],
+ sb:[[12,'Timber'],[36,'Zubimendi'],[23,'Merino'],[6,'Gabriel'],[33,'Calafiori'],[19,'Trossard'],[1,'Donnarumma'],[20,'Arrhov'],[18,'Hansen'],[16,'Smit']],
+ r:[['Premier League','🏆 Champions'],['UEFA Champions League','🏆 Winners'],['UEFA Super Cup','🏆 Winners'],['FA Cup','🏆 Winners'],['Community Shield','🏆 Winners'],['Carabao Cup','🏆 Winners']]},
+{y:'2032/33',m:'Thierry Henry',f:'3-1-2-1-3',p:P3121,g:55,gl:81,as:84,
+ af:['Africa Cup of Nations 2033 · Kenya','AFCON Winners 🏆',14,12],
+ tr:[['pl','Premier League','Champions · 11th title'],['cl','UEFA Champions League','European Champions'],['sc','UEFA Super Cup','Winners'],['fa','FA Cup','Winners'],['cs','Community Shield','Winners'],['cc','Carabao Cup','Winners'],['cw','FIFA Club World Cup','World Champions']],
+ aw:['Ballon d\'Or','FIFA The Best Men\'s Player','UEFA Men\'s Player of the Year','Premier League Player of the Season','Premier League Playmaker','Champions League Final MVP','AFCON Player of the Tournament'],
+ xi:[[9,'Isak'],[17,'Olise'],[7,'Saka'],ME,[10,'Bellingham'],[11,'Wirtz'],[41,'Rice'],[24,'Gvardiol'],[2,'Saliba'],[5,'Branthwaite'],[22,'Raya']],
+ sb:[[12,'Timber'],[36,'Zubimendi'],[23,'Merino'],[6,'Gabriel'],[33,'Calafiori'],[19,'Trossard'],[1,'Donnarumma'],[20,'Arrhov'],[18,'Hansen'],[16,'Smit']],
+ r:[['Premier League','🏆 Champions'],['UEFA Champions League','🏆 Winners'],['UEFA Super Cup','🏆 Winners'],['FA Cup','🏆 Winners'],['Community Shield','🏆 Winners'],['Carabao Cup','🏆 Winners'],['FIFA Club World Cup','🏆 Winners'],['Africa Cup of Nations (Kenya)','🏆 Winners']]}
 ];
 var cur=0;
 function tr(t){var c=TC[t[0]],id=t[0]=='pl'?'pl':'cup';
  return '<div class="t"'+(t[0]=='pl'?' style="border:2px solid var(--gold)"':'')+'><svg style="color:'+c+'"><use href="#'+id+'"/></svg><b>'+t[1]+'</b><span>'+t[2]+'</span></div>'}
+function intl(w,k){return '<div class="trophies" style="margin-top:12px"><div class="t" style="border:2px solid var(--gold)"><b>🌍 '+w[0]+'</b><span>'+w[1]+'</span></div></div><div class="stats" style="margin-top:12px"><div class="s"><b>'+w[2]+'</b><span>'+k+' Goals</span></div><div class="s"><b>'+w[3]+'</b><span>'+k+' Assists</span></div><div class="s"><b>'+(w[2]+w[3])+'</b><span>'+k+' Contributions</span></div></div>'}
 function render(){
  var s=S[cur],h='';
  document.getElementById('tabs').innerHTML=S.map(function(x,i){return '<button class="'+(i==cur?'on':'')+'" onclick="cur='+i+';render()">'+x.y+'</button>'}).join('');
  h+='<p class="mgr">Manager: <b>'+s.m+'</b></p>';
- h+='<h2>Silverware</h2><div class="trophies">'+s.tr.map(tr).join('')+'</div>'+(s.wc?'<h2>International Duty</h2><div class="trophies"><div class="t" style="border:2px solid var(--gold)"><b>🌍 '+s.wc[0]+'</b><span>'+s.wc[1]+'</span></div></div><div class="stats" style="margin-top:12px"><div class="s"><b>'+s.wc[2]+'</b><span>WC Goals</span></div><div class="s"><b>'+s.wc[3]+'</b><span>WC Assists</span></div><div class="s"><b>'+(s.wc[2]+s.wc[3])+'</b><span>WC Contributions</span></div></div>':'');
+ h+='<h2>Silverware</h2><div class="trophies">'+s.tr.map(tr).join('')+'</div>'+((s.wc||s.af)?'<h2>International Duty</h2>'+(s.wc?intl(s.wc,'WC'):'')+(s.af?intl(s.af,'AFCON'):''):'');
  var c=s.gl+s.as;
  h+='<h2>Individual Awards</h2><div class="subs">'+s.aw.map(function(a){return '<div><b>★</b>'+a+'</div>'}).join('')+'</div>';
  h+='<h2>My Season</h2><div class="stats"><div class="s"><b>'+s.g+'</b><span>Games</span></div><div class="s"><b>'+s.gl+'</b><span>Goals</span></div><div class="s"><b>'+s.as+'</b><span>Assists</span></div><div class="s"><b>'+c+'</b><span>Goal contributions</span></div></div>';
  h+='<p class="note">'+(s.gl/s.g).toFixed(2)+' goals + '+(s.as/s.g).toFixed(2)+' assists per game · a goal involvement every '+(s.g/c).toFixed(2)+' games</p>';
  h+='<h2>Starting XI · '+s.f+'</h2><div class="pitch">'+s.xi.map(function(pl,i){var me=!pl[1];
   return '<div class="p'+(me?' me':'')+'" style="left:'+s.p[i][0]+'%;top:'+s.p[i][1]+'%"><i>'+pl[0]+'</i><span'+(me?' class="nmx"':'')+'>'+(me?N:pl[1])+'</span></div>'}).join('')+'</div>';
+ if(s.tf){h+='<h2>Squad Changes</h2><div class="subs">'+s.tf.inn.map(function(p){return '<div><b>IN</b>'+p[0]+' '+p[1]+'</div>'}).join('')+s.tf.out.map(function(p){return '<div><b style="color:var(--mute)">OUT</b>'+p+'</div>'}).join('')+'</div>'}
  h+='<h2>Substitutes</h2><div class="subs">'+s.sb.map(function(p){return '<div><b>'+p[0]+'</b>'+p[1]+'</div>'}).join('')+'</div>';
  h+='<h2>Season Snapshot</h2><div class="scroll"><table><tr><th>Competition</th><th>Result</th></tr>'+s.r.map(function(r){return '<tr><td>'+r[0]+'</td><td>'+r[1]+'</td></tr>'}).join('')+'</table></div>';
  document.getElementById('season').innerHTML=h;
 }
 function career(){
- var wc=0,g=0,gl=0,as=0,n={},aw=0,bd=0;
- S.forEach(function(s){aw+=s.aw.length;if(s.wc)wc++;s.aw.forEach(function(a){if(a.indexOf('Ballon')==0&&a.indexOf('Runner')<0)bd++});g+=s.g;gl+=s.gl;as+=s.as;s.tr.forEach(function(t){n[t[1]]=(n[t[1]]||0)+1})});
+ var wc=0,af=0,g=0,gl=0,as=0,n={},aw=0,bd=0;
+ S.forEach(function(s){aw+=s.aw.length;if(s.wc)wc++;if(s.af)af++;s.aw.forEach(function(a){if(a.indexOf('Ballon')==0&&a.indexOf('Runner')<0)bd++});g+=s.g;gl+=s.gl;as+=s.as;s.tr.forEach(function(t){n[t[1]]=(n[t[1]]||0)+1})});
  var tot=0,rows='';for(var k in n){tot+=n[k];rows+='<tr><td>'+k+'</td><td>'+n[k]+'</td></tr>'}
- document.getElementById('career').innerHTML='<div class="stats"><div class="s"><b>'+g+'</b><span>Games</span></div><div class="s"><b>'+gl+'</b><span>Goals</span></div><div class="s"><b>'+as+'</b><span>Assists</span></div><div class="s"><b>'+tot+'</b><span>Trophies</span></div><div class="s"><b>'+aw+'</b><span>Awards</span></div><div class="s"><b>'+bd+'</b><span>Ballons d\'Or</span></div><div class="s"><b>'+wc+'</b><span>World Cups</span></div></div><div class="scroll" style="margin-top:12px"><table><tr><th>Trophy</th><th>Won</th></tr>'+rows+'</table></div>';
+ document.getElementById('career').innerHTML='<div class="stats"><div class="s"><b>'+g+'</b><span>Games</span></div><div class="s"><b>'+gl+'</b><span>Goals</span></div><div class="s"><b>'+as+'</b><span>Assists</span></div><div class="s"><b>'+tot+'</b><span>Trophies</span></div><div class="s"><b>'+aw+'</b><span>Awards</span></div><div class="s"><b>'+bd+'</b><span>Ballons d\'Or</span></div><div class="s"><b>'+wc+'</b><span>World Cups</span></div><div class="s"><b>'+af+'</b><span>AFCONs</span></div></div><div class="scroll" style="margin-top:12px"><table><tr><th>Trophy</th><th>Won</th></tr>'+rows+'</table></div>';
 }
 document.getElementById('nm').addEventListener('input',function(){
  N=this.textContent||'YOU';
